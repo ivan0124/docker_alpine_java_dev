@@ -8,7 +8,7 @@ Step3. build java code `TestWeka.java`
 $ javac -cp /home/adv/docker_alpine_dev/src/weka-stable-3.6.6.jar TestWeka.java
 </pre>
 
-Step4. run java code TestWeka
+Step4. run java code `TestWeka`
 <pre>
 $ java -cp .:/home/adv/docker_alpine_dev/src/weka-stable-3.6.6.jar TestWeka
 </pre>

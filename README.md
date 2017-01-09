@@ -3,9 +3,12 @@ Step1. launch `deploy.sh`
 
 Step2. enter `/home/ivan/docker_alpine_dev/src`
 
-Step3. generate `lib_a.so` by typing `make`
-
-Step4. launch `index.js` to call `lib_a.so`
+Step3. build java code `TestWeka.java`
 <pre>
-$ node ./index.js
+$ javac -cp /home/adv/docker_alpine_dev/src/weka-stable-3.6.6.jar TestWeka.java
+</pre>
+
+Step4. run java code TestWeka
+<pre>
+$ java -cp .:/home/adv/docker_alpine_dev/src/weka-stable-3.6.6.jar TestWeka
 </pre>

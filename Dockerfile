@@ -1,4 +1,3 @@
-Dockerfile
 FROM frolvlad/alpine-glibc:alpine-3.4
 
 ENV JAVA_VERSION=8 \
